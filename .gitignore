@@ -1,0 +1,39 @@
+# ===== .NET / Azure Functions =====
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Ll]og/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vs/
+publish/
+local.settings.json
+
+# ===== Node.js / Frontend =====
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+
+# ===== Azurite (Local Azure Storage Emulator) =====
+__azurite_db_*
+__blobstorage__/
+__queuestorage__/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE =====
+.idea/
+*.swp
+*.swo
+*~
